@@ -1,5 +1,6 @@
 # encoding: utf-8
-require_dependency 'redmine_jstoolbar_ext'
+#require_dependency 'redmine_jstoolbar_ext'
+require_dependency File.expand_path('../lib/redmine_jstoolbar_ext.rb', __FILE__)
 
 Redmine::Plugin.register :redmine_jstoolbar_ext do
   name 'Redmine jsToolbar Extension'
